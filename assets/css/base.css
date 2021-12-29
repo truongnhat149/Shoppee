@@ -1,0 +1,39 @@
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+* {
+    box-sizing: inherit; 
+    /* thuộc tính iherit sẽ giúp tất cả các element trong html
+    kế thừa lại  */
+}
+
+html {
+    /* ở đây, đơn vị trong web coppy là line-height là 16px
+    dựa vào 1rem = 12px. nên khi ta quy ra 62.5 % thì 1.6 rem bằng 
+    16px */
+    /* sans-serif là 1 chủng không chân, còn roboto là font */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    /* những element nằm trong nó thì nó sẽ nằm ngang..wrap những thằng nằm trong hàng 
+    sẽ xuống hàng khi bị bó screen*/
+    display: flex;
+    flex-wrap: wrap;
+}
