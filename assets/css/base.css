@@ -1,5 +1,6 @@
 
 :root {
+    --primary-color: #EE4D2D;
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
@@ -36,4 +37,15 @@ html {
     sẽ xuống hàng khi bị bó screen*/
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Animation */
+/* tạo ra chuyển động  */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
