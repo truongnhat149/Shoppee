@@ -12,4 +12,6 @@
 - *Những Nơi đánh dấu * là phần chi tiết thêm*
 - Sử dụng cách viết BEM để định nghĩa các attribute
 - CSS: root, Animation, 
-- Phần header: +  Dựng khung, QR code, Thông báo, icon,
+- Phần header: 
++  Dựng khung, QR code, Thông báo, icon,
++  Base Modal: 2 phần : layout, hiện form
