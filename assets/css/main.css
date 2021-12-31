@@ -132,10 +132,35 @@
     cursor: default;
     /* transfrom origin định vị tâm */
     transform-origin: calc(100% - 20px) top;
+    /* animation thuộc tính động */
     animation: headerNotifyGrowth ease-in 0.2;
+    /* Hỗ trợ trình duyệt chrome */
+    -webkit-animation: headerNotifyGrowth ease-in 0.2; 
+    /* hỗ trợ trình duyệt firefox */
+    -moz-animation: headerNotifyGrowth ease-in 0.2;
+    /* will-change tối uuw hóa cho trình duyệt */
+    will-change: opacity, transform;
     display: none;
 }
+.header__notify::before {
+    content: "";
+    border-width: 20px 27px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 4px;
+    top: -29px;
+}
 
+.header__notify::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -16px;
+    right: 0;
+    width: 90px;
+    height: 20px;
+}
 @keyframes headerNotifyGrowth {
     from {
         opacity: 0;
@@ -159,7 +184,8 @@
     font-size: 1.4rem;
     line-height: 40px;
     user-select: none;
-    /* -ms-user-select: none; */
+    display: block;
+    -ms-user-select: none;
 }
 
 .header__notify-list {
