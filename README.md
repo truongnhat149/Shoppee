@@ -1,4 +1,8 @@
 # Xây dựng Web Bán Hàng/ Building a Sales Website / 販売　ウエブサイト　の　構築
+
+--------------website: https://truongnhat149.github.io/Shoppee/
+
+
 ## Những kiến thức được sử dụng để làm
 - HTML/CSS*
 - JavaScript
