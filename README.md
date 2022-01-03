@@ -1,11 +1,10 @@
 # Xây dựng Web Bán Hàng/ Building a Sales Website / 販売　ウエブサイト　の　構築
 
-<<<<<<< HEAD
-=======
+
 --------------website: https://truongnhat149.github.io/Shoppee/
 
 
->>>>>>> 59f157cb68c0432f45d4a3b530205d57a83d2129
+
 ## Những kiến thức được sử dụng để làm
 - HTML/CSS*
 - JavaScript*
@@ -34,9 +33,7 @@
 +  Chia layout dạng lưới (12grid)
 +  Dựng pagination-item (chia trang)
 - Phần footer 
-<<<<<<< HEAD
 
 - Javascript:
 + CSS Selector
-=======
->>>>>>> 59f157cb68c0432f45d4a3b530205d57a83d2129
+

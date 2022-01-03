@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    
     <!-- Block Element Modifier -->
     <div class="app">
         <header class="header">
@@ -43,10 +44,10 @@
                         </li>
                         <li class="header__navbar-item">
                             <span class="header__navbar-title--no-pointer">Kết nối</span>
-                            <a href="" class="header__navbar-icon-link">
+                            <a href="https://www.facebook.com/codegymhue" class="header__navbar-icon-link">
                                 <i class="header__navbar-icon fab fa-facebook"></i>
                             </a>
-                            <a href="" class="header__navbar-icon-link">
+                            <a href="https://www.instagram.com/lpnt86/" class="header__navbar-icon-link">
                                 <i class="header__navbar-icon fab fa-instagram"></i>
                             </a>
                         </li>
@@ -109,13 +110,14 @@
                                 Trợ giúp
                             </a>
                         </li>
-                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+
+                        <li id="headerLogin" class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
                             Đăng ký</li>
-                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li id="headerRegistration" class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
 
 
                         <!-- header user info -->
-                        <li class="header__navbar-item header__navbar-user">
+                        <li class="header__navbar-item header__navbar-user" style="display: none;">
                             <img src="https://cf.shopee.vn/file/d7ef13a2b2d505b9ca063d1524dad8e6_tn" alt=""
                                 class="header__navbar-user-img">
                             <span class="header__navbar-user-name"></span>
@@ -203,21 +205,21 @@
 
                                     <!-- Cart Item -->
                                     <li class="header__cart-item">
-                                        <img src="assets/img/chan-nem.png" alt="" class="header__cart-img">
+                                        <img src="assets/img/img product/ghe-massage.png" alt="" class="header__cart-img">
                                         <div class="header__cart-item-info">
                                             <div class="header__cart-item-head">
-                                                <h5 class="header__cart-item-name">Bộ Ga nệm êm ấm</h5>
+                                                <h5 class="header__cart-item-name">Ghế massage hạng thương gia VIP</h5>
                                                 <div class="header__cart-item-price-wap">
 
-                                                    <span class="header__cart-item-price">2.000.000</span>
+                                                    <span class="header__cart-item-price">120.000.000</span>
                                                     <span class="header__cart-item-multiply">x</span>
-                                                    <span class="header__cart-item-qnt">2</span>
+                                                    <span class="header__cart-item-qnt">1</span>
                                                 </div>
                                             </div>
 
                                             <div class="header__cart-item-body">
                                                 <span class="header__cart-item-description">
-                                                    Phân loại: Bạc
+                                                    Phân loại: Vàng
                                                 </span>
                                                 <span class="header__cart-item-remove">Xóa</span>
                                             </div>
@@ -607,13 +609,13 @@
                         
                         <ul class="footer-list">
                             <li class="footer-item">
-                                <a href="#" class="footer-item__link">
+                                <a href="https://www.facebook.com/codegymhue" class="footer-item__link">
                                     <i class="footer-item__icon fab fa-facebook"></i>
                                     Facebook
                                 </a>
                             </li>  
                             <li class="footer-item">
-                                <a href="#" class="footer-item__link">
+                                <a href="https://www.instagram.com/lpnt86/" class="footer-item__link">
                                     <i class="footer-item__icon fab fa-instagram"></i>
                                     Instagram
                                 </a>
@@ -652,12 +654,13 @@
     </div>
 
     <!-- Modal layout-->
-    <!-- <div class="modal">
+    <div class="modal">
         <div class="modal__overlay"></div>
 
-        <div class="modal__body"> -->
+        <div class="modal__body">
 
     <!-- Register form -->
+
     <!-- <div class="auth-form">
                      <div class="auth-form__container">
                         <div class="auth-form__header">
@@ -709,7 +712,7 @@
                 </div> -->
 
     <!-- Login form -->
-    <!-- <div class="auth-form">
+    <div class="auth-form">
                     <div class="auth-form__container">
                        <div class="auth-form__header">
                            <h3 class="auth-form__heading"> Đăng nhập</h3>
@@ -718,10 +721,10 @@
    
                        <div class="auth-form__form">
                            <div class="auth-form__group">
-                               <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                               <input type="text" class="auth-form__input" placeholder="Email của bạn" required>
                            </div>
                            <div class="auth-form__group">
-                               <input type="password" class="auth-form__input" placeholder="Password của bạn">
+                               <input type="password" class="auth-form__input" placeholder="Password của bạn" required>
                            </div>
                            
                        </div>
@@ -755,9 +758,9 @@
                        </div>
                     </div>
                   
-               </div> -->
-    <!-- </div>
-    </div> -->
+               </div> 
+        </div>
+    </div>
 </body>
-
+<script src="assets/js/register.js"></script>
 </html>

@@ -22,6 +22,8 @@
 }
 
 /* header user info */
+
+
 .header__navbar-user {
     display: flex;
     justify-content: center;
@@ -78,15 +80,8 @@
     right: 0;
     width: 56%;
     height: 8px;
-    /* display: none; */
-
-    
 }
 
-
-.header__navbar-user-item {
-    /* padding: 3px 11px; */
-}
 
 .header__navbar-user-item--separate {
     border-top: 1px solid rgba(red, 0, 0, 0.05);
@@ -113,6 +108,7 @@
 .header__navbar-user-item a:hover {
     background-color: #fafafa;
 }
+
 
 
 .header__navbar-item--has-qr:hover .header__qr {
@@ -144,6 +140,9 @@
 
 .header__navbar-item--strong {
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
 }
 
 .header__navbar-item--separate::after {
@@ -1329,3 +1328,5 @@
     font-size: 1.4rem;
     color: #737373;
 }
+
+
