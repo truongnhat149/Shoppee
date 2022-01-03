@@ -47,7 +47,7 @@
 .header__navbar-user-menu {
     position: absolute;
     z-index: 1;
-    padding-left: 0;
+    padding: 3px;
     top: calc(100% + 8px);
     right: 0;
     width: 160px;
@@ -60,14 +60,13 @@
 
 .header__navbar-user-menu::before {
     content: "";
-    border-width: 20px 27px;
+    border-width: 17px 16px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
     position: absolute;
-    right: 4px;
-    top: -29px;
-    display: none;
-
+    right: 0px;
+    top: -25px;
+    display: block;
 }
 
 
@@ -80,6 +79,7 @@
     width: 56%;
     height: 8px;
     /* display: none; */
+
     
 }
 
@@ -516,6 +516,11 @@
     color: var(--white-color);
 }
 
+.header__logo-img-code-gym {
+    width: 100px;
+    margin: 4px 0 0 22px;
+}
+
 .header__search {
     flex: 1;
     border-radius: 2px;
@@ -639,6 +644,8 @@
 .header__cart-item-body {
     text-align: left;
     justify-content: space-between;
+    display: flex;
+    margin: 22px 0 0 0;
 }
 
 .header__cart-item-description {
