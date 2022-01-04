@@ -19,7 +19,7 @@
 - *Những Nơi đánh dấu * là phần chi tiết thêm*
 - HTML/CSS
 - Sử dụng cách viết BEM để định nghĩa các attribute
-- CSS: root, Animation, reponsive
+- CSS: root, Animation, reponsive,position,display: flex-box
 - Phần header: 
 +  Dựng khung, QR code, Thông báo, icon,
 +  Base Modal: 2 phần : layout, hiện form (dựng form)

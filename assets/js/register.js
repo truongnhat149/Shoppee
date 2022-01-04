@@ -4,5 +4,6 @@ document.querySelector('#headerRegistration').addEventListener("click", function
 })
 
 document.querySelector('#headerLogin').addEventListener("click", function() {
-    alert()
+    document.querySelector('.modal').style.display = "flex";
+
 })
