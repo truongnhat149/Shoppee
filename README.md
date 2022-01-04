@@ -2,6 +2,7 @@
 
 
 --------------website: https://truongnhat149.github.io/Shoppee/
+--------------powpoint: https://www.canva.com/design/DAE0YLFK4Us/81TqJOf_GsL_3yNeYl1ikQ/edit
 
 
 
