@@ -1,7 +1,7 @@
 # Xây dựng Web Bán Hàng/ Building a Sales Website / 販売　ウエブサイト　の　構築
 
 
---------------website: https://truongnhat149.github.io/Shoppee/
+--------------website: https://truongnhat149.github.io/Shoppee-FrontEnd-M1/
 --------------powpoint: https://www.canva.com/design/DAE0YLFK4Us/81TqJOf_GsL_3yNeYl1ikQ/edit
 
 
